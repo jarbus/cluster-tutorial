@@ -15,5 +15,6 @@ def main():
     os.makedirs(output_path, exist_ok=True)
     with open(out_file, 'w') as f:
         f.write('Hello, world!\n')
+    print(f"Output written to {out_file}")
 
 main()
